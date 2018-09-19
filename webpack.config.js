@@ -28,9 +28,10 @@ module.exports = {
   performance: {
     hints: false
   },
-  serve: {
-    content: 'public/',
-    open: true,
-    port: 3000
+  devServer: {
+    contentBase: `${__dirname}/public`,
+    port: 3000,
+    hot: true,
+    open: true
   }
 };
