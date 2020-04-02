@@ -1,5 +1,5 @@
 module.exports = {
-  mode: process.env.WEBPACK_SERVE ? 'development' : 'production',
+  mode: process.env.WEBPACK_DEV_SERVER ? 'development' : 'production',
   entry: `${__dirname}/src/app/index.tsx`,
   output: {
     path: `${__dirname}/public`,
