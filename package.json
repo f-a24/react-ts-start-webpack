@@ -37,7 +37,7 @@
       "node"
     ],
     "setupFilesAfterEnv": [
-      "./test/setupTest.ts"
+      "./tests/setupTest.ts"
     ]
   },
   "dependencies": {

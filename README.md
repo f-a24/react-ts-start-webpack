@@ -1,25 +1,25 @@
-# REACT×TypeScript Starter Kit
+# React × TypeScript Starter Kit
 
 ## Usage
 
 1. Clone or download
 2. `cd react-ts-start-webpack`
-3. `yarn install`
+3. `yarn`
 
 ## Directory structure
 
 ```
-react-ts-start
+react-ts-start-webpack
 ├─ public
 |  └─ index.html           // Entry file
 ├─ src
-|  ├─ app
-|  |  ├─ App.tsx           // App file
-|  |  └─ index.tsx         // Root file
-|  └─ test
-|     ├─ App.test.tsx      // Test code
-|     └─ setupTest.ts      // Test configuration file
+|  ├─ App.tsx              // App file
+|  └─ index.tsx            // Root file
+├─ tests
+|  ├─ App.test.tsx         // Test code
+|  └─ setupTest.ts         // Test configuration file
 ├─ .eslintrc               // ESLint configuration file
+├─ .stylelintrc            // StyleLint configuration file
 ├─ tsconfig.json           // TypeScript configuration file
 ├─ package.json            // npm configuration file
 ├─ webpack.config.js       // Webpack configuration file
@@ -41,6 +41,7 @@ react-ts-start
 |||
 |:--|:--|
 |[React](https://reactjs.org/)|A JavaScript library for building user interfaces|
+|[styled-components](https://styled-components.com/)|Visual primitives for the component age|
 |[TypeScript](https://www.typescriptlang.org/)|JavaScript that scales|
 |[Webpack](https://webpack.js.org/)|Module bundler|
 |[Jest](https://jestjs.io/)|Delightful JavaScript Testing|
