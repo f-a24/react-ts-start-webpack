@@ -29,7 +29,7 @@
       "arrow-parens": 0,
       "no-duplicate-imports": 0,
       "no-shadow": 0,
-      "quotes": ["error", "single", { "avoidEscape": true }],
+      "prettier/prettier": ["error", { "singleQuote": true }],
       "react/prop-types": "off",
       "react/jsx-filename-extension": [
         "error",
