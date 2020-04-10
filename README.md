@@ -41,10 +41,11 @@ react-ts-start-webpack
 |||
 |:--|:--|
 |[React](https://reactjs.org/)|A JavaScript library for building user interfaces|
-|[styled-components](https://styled-components.com/)|Visual primitives for the component age|
+|[Styled-components](https://styled-components.com/)|Visual primitives for the component age|
 |[TypeScript](https://www.typescriptlang.org/)|JavaScript that scales|
 |[Webpack](https://webpack.js.org/)|Module bundler|
 |[Jest](https://jestjs.io/)|Delightful JavaScript Testing|
 |[Enzyme](https://airbnb.io/enzyme/)|Enzyme is a JavaScript Testing utility for React|
 |[ESLint](https://eslint.org/)|Find and fix problems in your JavaScript code.|
 |[Prettier](https://prettier.io/)|An opinionated code formatter|
+|[StyleLint](https://stylelint.io/)|A mighty, modern linter that helps you avoid errors and enforce conventions in your styles|
