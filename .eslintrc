@@ -1,12 +1,55 @@
 {
-    "extends": "airbnb",
+    "extends": [
+      "airbnb",
+      "eslint:recommended",
+      "plugin:@typescript-eslint/eslint-recommended",
+      "plugin:@typescript-eslint/recommended",
+      "plugin:import/errors",
+      "plugin:import/warnings",
+      "plugin:import/typescript",
+      "plugin:jest/recommended",
+      "plugin:jsx-a11y/recommended",
+      "plugin:prettier/recommended",
+      "plugin:react/recommended",
+      "prettier",
+      "prettier/@typescript-eslint",
+      "prettier/react",
+      "prettier/standard"
+    ],
     "parser": "@typescript-eslint/parser",
-    "plugins": ["react", "jsx-a11y", "import", "@typescript-eslint"],
-    "env": { "browser": true },
+    "plugins": ["react","jsx-a11y", "import", "prettier", "@typescript-eslint"],
+    "env": {
+      "browser": true,
+      "es6": true,
+      "node": true,
+      "jest/globals": true
+    },
     "rules": {
       "comma-dangle": 0,
       "arrow-parens": 0,
       "no-duplicate-imports": 0,
-      "no-shadow": 0
+      "no-shadow": 0,
+      "quotes": ["error", "single", { "avoidEscape": true }],
+      "react/prop-types": "off",
+      "react/jsx-filename-extension": [
+        "error",
+        {
+          "extensions": [".tsx"]
+        }
+      ],
+      "import/extensions": [
+        "error",
+        "always",
+        {
+          "ts": "never",
+          "tsx": "never"
+        }
+      ],
+      "import/no-extraneous-dependencies": [
+        "error",
+        {
+          "devDependencies": ["test/**"]
+        }
+      ]
     }
   }
